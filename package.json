@@ -1,5 +1,5 @@
 {
-	"name": "am-cwra",
+	"name": "create-am-wra",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"dev:c": "concurrently \"vite build --mode development --watch\" \"webflow extension serve\"",
 		"dev:hmr": "vite dev --config vite-dev.config.ts",
-		"build": "tsc -b && vite build",
+		"build": "tsc -b && vite build && webflow extension bundle",
 		"lint": "eslint .",
 		"preview": "vite preview"
 	},

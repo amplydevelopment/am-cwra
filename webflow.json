@@ -1,0 +1,6 @@
+{
+	"name": "Amply Webflow React App",
+	"size": "confortable",
+	"apiVersion": "2",
+	"publicDir": "dist"
+}

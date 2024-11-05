@@ -1,4 +1,5 @@
 import './App.css';
+import '@webflow/designer-extension-typings';
 
 function App() {
 	return <></>;
